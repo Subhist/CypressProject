@@ -1,0 +1,22 @@
+{
+  "name": "cypress_automations",
+  "version": "1.0.0",
+  "description": "Cypress Automation Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Subhist/CypressProject.git"
+  },
+  "author": "Subhist",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Subhist/CypressProject/issues"
+  },
+  "homepage": "https://github.com/Subhist/CypressProject#readme",
+  "devDependencies": {
+    "cypress": "^9.7.0"
+  }
+}
