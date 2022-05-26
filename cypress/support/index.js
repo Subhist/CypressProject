@@ -15,6 +15,9 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+import './utils'
+import '../integration/UI/pageobjects/loginscreen'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+require('../integration/UI/pageobjects/loginscreen')
