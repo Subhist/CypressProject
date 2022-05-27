@@ -1,15 +1,15 @@
 {
   "stats": {
     "suites": 1,
-    "tests": 1,
-    "passes": 1,
+    "tests": 0,
+    "passes": 0,
     "pending": 0,
     "failures": 0,
-    "start": "2022-05-26T09:06:23.044Z",
-    "end": "2022-05-26T09:06:36.081Z",
-    "duration": 13037,
+    "start": "2022-05-27T06:38:01.107Z",
+    "end": "2022-05-27T06:38:02.817Z",
+    "duration": 1710,
     "testsRegistered": 1,
-    "passPercent": 100,
+    "passPercent": 0,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -18,16 +18,16 @@
   },
   "results": [
     {
-      "uuid": "ec880b37-5bce-4ba8-98ca-8f9f3b28ce89",
+      "uuid": "6e138346-de96-4017-821b-22c11e95c1ac",
       "title": "",
-      "fullFile": "cypress/integration/UI/testcases/applaunchtestcases.js",
-      "file": "cypress/integration/UI/testcases/applaunchtestcases.js",
+      "fullFile": "cypress/integration/UI/testcases/logintestcase.js",
+      "file": "cypress/integration/UI/testcases/logintestcase.js",
       "beforeHooks": [],
       "afterHooks": [],
       "tests": [],
       "suites": [
         {
-          "uuid": "93599cc0-bcd7-4fb6-9514-2fa434836b39",
+          "uuid": "7329d00f-6f23-4771-96dd-4ad9a5aa6551",
           "title": "Sanity Suite",
           "fullFile": "",
           "file": "",
@@ -35,32 +35,32 @@
           "afterHooks": [],
           "tests": [
             {
-              "title": "Verify logo on launch",
-              "fullTitle": "Sanity Suite Verify logo on launch",
+              "title": "Signin to App",
+              "fullTitle": "Sanity Suite Signin to App",
               "timedOut": null,
-              "duration": 9760,
-              "state": "passed",
-              "speed": "medium",
-              "pass": true,
-              "fail": false,
+              "duration": 924,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
               "pending": false,
               "context": null,
-              "code": "home.getLaunchLogo().should('be.visible');",
+              "code": "cy.login(this.usercreds.user, this.usercreds.pass);",
               "err": {},
-              "uuid": "1eff663c-bd1d-4d49-a4b5-216b1c7cff00",
-              "parentUUID": "93599cc0-bcd7-4fb6-9514-2fa434836b39",
+              "uuid": "ad67f47b-7605-4704-a747-61b8059eddba",
+              "parentUUID": "7329d00f-6f23-4771-96dd-4ad9a5aa6551",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
-          "passes": [
-            "1eff663c-bd1d-4d49-a4b5-216b1c7cff00"
+          "passes": [],
+          "failures": [
+            "ad67f47b-7605-4704-a747-61b8059eddba"
           ],
-          "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 9760,
+          "duration": 924,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

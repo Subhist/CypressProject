@@ -28,11 +28,6 @@ class Login{
         return cy.get('#menu_dashboard_index > b')
     }
 
-    getForgotPasswordButton(){
-        cy.get("#forgotPasswordLink")
-        return this;
-    }
-
 
    
 

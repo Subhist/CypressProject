@@ -21,3 +21,5 @@ import '../integration/UI/pageobjects/loginscreen'
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
 require('../integration/UI/pageobjects/loginscreen')
+
+
