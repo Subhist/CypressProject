@@ -2,8 +2,7 @@ class Login{
 
 
     getEmail(email){
-        cy.get('#txtUsername')
-        .type(email)
+        cy.get('#txtUsername').type(email)
         return this;
     }
 
@@ -11,8 +10,7 @@ class Login{
 
 
     getPassword(pass){
-         cy.get('#txtPassword')
-         .type(pass)
+         cy.get('#txtPassword').type(pass)
          return this;
 
     }
@@ -23,10 +21,20 @@ class Login{
         
     }
 
+    getCandidateResume(){
+        cy.get('#addCandidate_resume').click()
+        return this;
+    }
+
 
     getDashBoardTab(){
         return cy.get('#menu_dashboard_index > b')
     }
+
+    getDownloadFile(){
+        cy.downloadFile()
+    }
+
 
 
    
