@@ -1,0 +1,15 @@
+{
+    "firstName" : "Subhist",
+    "middleName" : "Bhimrao",
+    "lastName" : "Subhist",
+    "contactDetails" : 1111111111,
+    "email" : "example@example.com",
+    "vacancy" : "Senior QA Lead",
+    "resumelocation" : "resume.txt",
+    "candidate_keyword" : "Sr QA Lead",
+    "candidate_comments" : "Very good Candidate",
+    "application_date" : 17,
+    "application_year" : "1989",
+    "application_month" : "7"
+
+}
